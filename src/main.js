@@ -5,7 +5,7 @@ import * as graphAnalysis from './graphAnalysis.js';
 const dataFileName = './data/data.json';
 import SimpleNetwork from './SimpleNetwork.js';
 
-const network = new SimpleNetwork('body', dataFileName);
+const network = new SimpleNetwork('body', dataFileName); // create a new instance of SimpleNetwork
 
   
 // //console.log("main")  
