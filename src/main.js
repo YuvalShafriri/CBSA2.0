@@ -1,3 +1,4 @@
+//ver 1.0.0
 import Visualization from './visualization.js';
 import * as graphAnalysis from './graphAnalysis.js';
 // const width = window.innerWidth;
@@ -6,7 +7,7 @@ const dataFileName = './data/data.json';
 import SimpleNetwork from './SimpleNetwork.js';
 
 const network = new SimpleNetwork('body', dataFileName); // create a new instance of SimpleNetwork
-
+//
   
 // //console.log("main")  
 // graphAnalysis.centrality(dataFileName).then(result => {
