@@ -6,7 +6,7 @@ export default class SimpleNetwork {
         this.data = data;
         this.width = window.innerWidth;
         this.height = window.innerHeight;
-        this.collisionForce = d3.forceCollide().radius(50);
+        this.collisionForce = d3.forceCollide().radius(30);
         this.init();
 
       
@@ -46,10 +46,14 @@ export default class SimpleNetwork {
 
     createForceSimulation() {
         this.simulation = d3.forceSimulation(this.nodes)
-            .force('link', d3.forceLink(this.links).id(d => d.id).distance(90)) // set your desired distance here
-            .force('charge', d3.forceManyBody())
+            .force('link', d3.forceLink(this.links).id(d => d.id).distance(70)) // set your desired distance here
+            
+            .force("charge", d3.forceManyBody().strength(-80)) // Adjust the strength here
+        
             .force('center', d3.forceCenter(this.width / 2, this.height / 2))
             .force("collision", this.collisionForce)
+            .force("collide", d3.forceCollide().radius(65))  // Adjust the radius here
+            .alphaDecay(0.02) // Adjust this value
             .on('tick', () => this.tick());
     }
 
@@ -90,7 +94,7 @@ export default class SimpleNetwork {
         this.nodeGroup = container.append('g').selectAll('g').data(this.nodes).enter().append('g');
 
         this.node = this.nodeGroup.append('circle')
-            .attr('r', 20)
+            .attr('r', 15)
             .attr('fill', d => this.config.typeColors[d.type] || '#1f78b4');
         
         this.nodeGroup.append('text')
@@ -176,10 +180,7 @@ export default class SimpleNetwork {
             .attr('x2', d => d.target.x)
             .attr('y2', d => d.target.y);
 
-        // Update node positions
-        // this.node
-        //     .attr('cx', d => d.x)
-        //     .attr('cy', d => d.y);
+         
         this.nodeGroup.attr('transform', d => `translate(${d.x}, ${d.y})`);
 
 

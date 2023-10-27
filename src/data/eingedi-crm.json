@@ -1,0 +1,247 @@
+{
+    "nodes": [
+        {
+            "id": "Ein Gedi",
+            "type": "E53_Place"
+        },
+        {
+            "id": "Temple at Ein Gedi",
+            "type": "E18_Physical_Object"
+        },
+        {
+            "id": "Ma'in Ein-Gadi",
+            "type": "E53_Place"
+        },
+        {
+            "id": "Ein-Gadi spring",
+            "type": "E53_Place"
+        },
+        {
+            "id": "Mein",
+            "type": "E53_Place"
+        },
+        {
+            "id": "Ein-Gadi settlement",
+            "type": "E53_Place"
+        },
+        {
+            "id": "Tel Goren",
+            "type": "E53_Place"
+        },
+        {
+            "id": "Nahal Mishmar",
+            "type": "E53_Place"
+        },
+        {
+            "id": "Moringa cave",
+            "type": "E19_Physical_Object"
+        },
+        {
+            "id": "Yohanan Aharoni",
+            "type": "E21_Person"
+        },
+        {
+            "id": "David Osishkin",
+            "type": "E21_Person"
+        },
+        {
+            "id": "Benjamin Mazar",
+            "type": "E21_Person"
+        },
+        {
+            "id": "Danny Rosenberg",
+            "type": "E21_Person"
+        },
+        {
+            "id": "Yuval Goren",
+            "type": "E21_Person"
+        },
+        {
+            "id": "University of Haifa",
+            "type": "E74_Group"
+        },
+        {
+            "id": "Ben Gurion University",
+            "type": "E74_Group"
+        },
+        {
+            "id": "Gideon Hadas",
+            "type": "E21_Person"
+        },
+        {
+            "id": "Yitzhak Shai",
+            "type": "E21_Person"
+        },
+        {
+            "id": "Roy Porat",
+            "type": "E21_Person"
+        },
+        {
+            "id": "Hanan Eshel",
+            "type": "E21_Person"
+        },
+        {
+            "id": "Amos Fromkin",
+            "type": "E21_Person"
+        },
+        {
+            "id": "Persian period",
+            "type": "E52_Time-Span"
+        },
+        {
+            "id": "Chalcolithic period",
+            "type": "E52_Time-Span"
+        },
+        {
+            "id": "Excavation at Temple at Ein Gedi",
+            "type": "E7_Activity"
+        },
+        {
+            "id": "Excavation at Moringa cave",
+            "type": "E7_Activity"
+        }
+    ],
+    "links": [
+        {
+            "source": "Temple at Ein Gedi",
+            "target": "Ma'in Ein-Gadi",
+            "relation": "P87_is_identified_by"
+        },
+        {
+            "source": "Temple at Ein Gedi",
+            "target": "Ein-Gadi spring",
+            "relation": "P87_is_identified_by"
+        },
+        {
+            "source": "Temple at Ein Gedi",
+            "target": "Mein",
+            "relation": "P87_is_identified_by"
+        },
+        {
+            "source": "Temple at Ein Gedi",
+            "target": "Ein-Gadi settlement",
+            "relation": "P87_is_identified_by"
+        },
+        {
+            "source": "Temple at Ein Gedi",
+            "target": "Tel Goren",
+            "relation": "P87_is_identified_by"
+        },
+        {
+            "source": "Temple at Ein Gedi",
+            "target": "Nahal Mishmar",
+            "relation": "P87_is_identified_by"
+        },
+        {
+            "source": "Temple at Ein Gedi",
+            "target": "Yohanan Aharoni",
+            "relation": "P14_carried_out_by"
+        },
+        {
+            "source": "Temple at Ein Gedi",
+            "target": "David Osishkin",
+            "relation": "P14_carried_out_by"
+        },
+        {
+            "source": "Temple at Ein Gedi",
+            "target": "Benjamin Mazar",
+            "relation": "P14_carried_out_by"
+        },
+        {
+            "source": "Temple at Ein Gedi",
+            "target": "Danny Rosenberg",
+            "relation": "P14_carried_out_by"
+        },
+        {
+            "source": "Temple at Ein Gedi",
+            "target": "Yuval Goren",
+            "relation": "P14_carried_out_by"
+        },
+        {
+            "source": "Danny Rosenberg",
+            "target": "University of Haifa",
+            "relation": "P107_has_current_or_former_member"
+        },
+        {
+            "source": "Yuval Goren",
+            "target": "Ben Gurion University",
+            "relation": "P107_has_current_or_former_member"
+        },
+        {
+            "source": "Moringa cave",
+            "target": "Gideon Hadas",
+            "relation": "P14_carried_out_by"
+        },
+        {
+            "source": "Moringa cave",
+            "target": "Yitzhak Shai",
+            "relation": "P14_carried_out_by"
+        },
+        {
+            "source": "Moringa cave",
+            "target": "Roy Porat",
+            "relation": "P14_carried_out_by"
+        },
+        {
+            "source": "Moringa cave",
+            "target": "Hanan Eshel",
+            "relation": "P14_carried_out_by"
+        },
+        {
+            "source": "Moringa cave",
+            "target": "Amos Fromkin",
+            "relation": "P14_carried_out_by"
+        },
+        {
+            "source": "Moringa cave",
+            "target": "Persian period",
+            "relation": "P4_has_time-span"
+        },
+        {
+            "source": "Moringa cave",
+            "target": "Chalcolithic period",
+            "relation": "P4_has_time-span"
+        },
+        {
+            "source": "Temple at Ein Gedi",
+            "target": "Excavation at Temple at Ein Gedi",
+            "relation": "P31_has_modified"
+        },
+        {
+            "source": "Moringa cave",
+            "target": "Excavation at Moringa cave",
+            "relation": "P31_has_modified"
+        },
+        {
+            "source": "Excavation at Temple at Ein Gedi",
+            "target": "Chalcolithic period",
+            "relation": "P4_has_time-span"
+        },
+       
+        {
+            "source": "Temple at Ein Gedi",
+            "target": "Chalcolithic period",
+            "relation": "P4_has_time-span"
+        },
+        {
+            "source": "Excavation at Moringa cave",
+            "target": "Chalcolithic period",
+            "relation": "P4_has_time-span"
+        }
+    ],
+    "config": {
+        "typeColors": {
+            "E53_Place": "#FFD700",
+            "E18_Physical_Object": "#FF4500",
+            "E21_Person": "#32CD32",
+            "E52_Time-Span": "#8A2BE2",
+            "E74_Group": "#1E90FF"
+        },
+        "relationColors": {
+            "P87_is_identified_by": "#808080",
+            "P14_carried_out_by": "#FFC0CB",
+            "P107_has_current_or_former_member": "#A52A2A",
+            "P4_has_time-span": "#7FFF00"
+        }
+    }
+}

@@ -1,0 +1,338 @@
+{
+    "nodes": [
+        {
+            "id": "Tel Goren excavation season",
+            "type": "Activity"   
+        }
+
+        ,
+        {
+            "id": "University of Haifa",
+            "type": "Organization"   
+        },
+        {
+            "id": "Ben Gurion University",
+            "type": "Organization"    
+        },
+        {
+            "id": "Ma'in Ein-Gadi",
+            "type": "Location"
+        },
+        {
+            "id": "Ein-Gadi spring",
+            "type": "Location"
+        },
+        {
+            "id": "Mein",
+            "type": "Location"
+        },
+        {
+            "id": "Ein-Gadi settlement",
+            "type": "Location"
+        },
+        {
+            "id": "Tel Goren",
+            "type": "Location"
+        },
+        {
+            "id": "Nahal Mishmar",
+            "type": "Location"
+        },
+        {
+            "id": "Chalcolithic temple at Ein Gedi",
+            "type": "Location"
+        },
+        {
+            "id": "Nahal David",
+            "type": "Location"
+        },
+        {
+            "id": "Moringa cave",
+            "type": "Location"
+        },
+        {
+            "id": "Yohanan Aharoni",
+            "type": "Person"
+        },
+        {
+            "id": "David Osishkin",
+            "type": "Person"
+        },
+        {
+            "id": "Benjamin Mazar",
+            "type": "Person"
+        },
+        {
+            "id": "Danny Rosenberg",
+            "type": "Person"
+        },
+        {
+            "id": "Yuval Goren",
+            "type": "Person"
+        },
+        {
+            "id": "Gideon Hadas",
+            "type": "Person"
+        },
+        {
+            "id": "Yitzhak Shai",
+            "type": "Person"
+        },
+        {
+            "id": "Roy Porat",
+            "type": "Person"
+        },
+        {
+            "id": "Hanan Eshel",
+            "type": "Person"
+        },
+        {
+            "id": "Amos Fromkin",
+            "type": "Person"
+        },
+        {
+            "id": "plaster",
+            "type": "Artifact"
+        },
+        {
+            "id": "altar",
+            "type": "Artifact"
+        },
+        {
+            "id": "clay figurine of a bull",
+            "type": "Artifact"
+        },
+        {
+            "id": "pottery shards",
+            "type": "Artifact"
+        },
+        {
+            "id": "bowls",
+            "type": "Artifact"
+        },
+        {
+            "id": "kevemats",
+            "type": "Artifact"
+        },
+        {
+            "id": "bizikhs",
+            "type": "Artifact"
+        },
+        {
+            "id": "Egyptian alabaster vessel",
+            "type": "Artifact"
+        },
+        {
+            "id": "Flint and stone tools",
+            "type": "Artifact"
+        },
+        {
+            "id": "Chalcolithic period",
+            "type": "Time Period"
+        },
+        {
+            "id": "Persian period",
+            "type": "Time Period"
+        },
+        {
+            "id": "Excavation",
+            "type": "Theme"
+        },
+        {
+            "id": "Burial",
+            "type": "Activity"
+        },
+        {
+            "id": "Survey",
+            "type": "Information"
+        },
+        {
+            "id": "Excavation findings",
+            "type": "Information"
+        }
+    ],
+    "links": [
+        {
+            "source": "Ma'in Ein-Gadi",
+            "target": "Ein-Gadi spring",
+            "relation": "Overlooks"
+        },
+        {
+            "source": "Chalcolithic temple at Ein Gedi",
+            "target": "Yohanan Aharoni",
+            "relation": "Discovered by"
+        },
+        {
+            "source": "Chalcolithic temple at Ein Gedi",
+            "target": "David Osishkin",
+            "relation": "Excavated by"
+        },
+        {
+            "source": "Chalcolithic temple at Ein Gedi",
+            "target": "Tel Goren",
+            "relation": "Part of"
+        },
+        {
+            "source": "Tel Goren excavation season",
+            "target": "Benjamin Mazar",
+            "relation": "Directed by"
+        },
+        {
+            "source": "Chalcolithic temple at Ein Gedi",
+            "target": "University of Haifa",
+            "relation": "Renewed excavation by"
+        },
+        {
+            "source": "Chalcolithic temple at Ein Gedi",
+            "target": "Ben Gurion University",
+            "relation": "Renewed excavation by"
+        },
+        {
+            "source": "Chalcolithic temple at Ein Gedi",
+            "target": "Danny Rosenberg",
+            "relation": "Renewed excavation directed by"
+        },
+        {
+            "source": "Chalcolithic temple at Ein Gedi",
+            "target": "Yuval Goren",
+            "relation": "Renewed excavation directed by"
+        },
+        {
+            "source": "Moringa cave",
+            "target": "Gideon Hadas",
+            "relation": "Excavation in 1989 by"
+        },
+        {
+            "source": "Moringa cave",
+            "target": "Yitzhak Shai",
+            "relation": "Excavation in 2004 directed by"
+        },
+        {
+            "source": "Moringa cave",
+            "target": "Roy Porat",
+            "relation": "Excavation in 2004 directed by"
+        },
+        {
+            "source": "Moringa cave",
+            "target": "Hanan Eshel",
+            "relation": "Excavation in 2004 directed by"
+        },
+        {
+            "source": "Moringa cave",
+            "target": "Amos Fromkin",
+            "relation": "Excavation"
+        },
+        {
+            "source": "Moringa cave",
+            "target": "Amos Fromkin",
+            "relation": "Excavation in 2004 directed by"
+        },
+        {
+            "source": "Chalcolithic temple at Ein Gedi",
+            "target": "plaster",
+            "relation": "Contains"
+        },
+        {
+            "source": "Chalcolithic temple at Ein Gedi",
+            "target": "altar",
+            "relation": "Contains"
+        },
+        {
+            "source": "Chalcolithic temple at Ein Gedi",
+            "target": "clay figurine of a bull",
+            "relation": "Contains"
+        },
+        {
+            "source": "Chalcolithic temple at Ein Gedi",
+            "target": "pottery shards",
+            "relation": "Contains"
+        },
+        {
+            "source": "Chalcolithic temple at Ein Gedi",
+            "target": "bowls",
+            "relation": "Contains"
+        },
+        {
+            "source": "Chalcolithic temple at Ein Gedi",
+            "target": "kevemats",
+            "relation": "Contains"
+        },
+        {
+            "source": "Chalcolithic temple at Ein Gedi",
+            "target": "bizikhs",
+            "relation": "Contains"
+        },
+        {
+            "source": "Chalcolithic temple at Ein Gedi",
+            "target": "Egyptian alabaster vessel",
+            "relation": "Contains"
+        },
+        {
+            "source": "Moringa cave",
+            "target": "Flint and stone tools",
+            "relation": "Contains"
+        },
+        {
+            "source": "Chalcolithic period",
+            "target": "Chalcolithic temple at Ein Gedi",
+            "relation": "Dates to"
+        },
+        {
+            "source": "Persian period",
+            "target": "Moringa cave",
+            "relation": "Dates to"
+        },
+        {
+            "source": "Excavation",
+            "target": "Chalcolithic temple at Ein Gedi",
+            "relation": "Activity occurred at"
+        },
+        {
+            "source": "Burial",
+            "target": "Moringa cave",
+            "relation": "Activity occurred at"
+        },
+        {
+            "source": "Survey",
+            "target": "Chalcolithic temple at Ein Gedi",
+            "relation": "Activity occurred at"
+        },
+        {
+            "source": "Excavation findings",
+            "target": "Chalcolithic temple at Ein Gedi",
+            "relation": "Details about"
+        }
+    ],
+    "config": {
+        "typeColors": {
+            "Location": "#e57373",
+            "Artifact": "#81C784",
+            "Theme": "#64B5F6",
+            "Person": "#FFD54F",
+            "Event": "#A1887F",
+            "Time Period": "#7986CB",
+            "Cultural Influence": "#FF8A65",
+            "Information": "#4FC3F7",
+            "Activity": "#9575CD"
+        },
+        "relationColors": {
+            "Contains": "#E91E63",
+            "Includes": "#FFb022",
+            "Depicts": "#4CAF50",
+            "Dates back to": "#00FF30",
+            "Influenced by": "#00BCD4",
+            "Mentioned in": "#673AB7",
+            "Known for": "#3F51B5",
+            "Overlooks": "#9C27B0",
+            "Discovered by": "#FFC107",
+            "Excavated by": "#FF5722",
+            "Part of": "#795548",
+            "Directed by": "#607D8B",
+            "Renewed excavation by": "#9E9E9E",
+            "Renewed excavation directed by": "#00E676",
+            "Dates to": "#8BC34A",
+            "Activity occurred at": "#009688",
+            "Details about": "#2196F3"
+        }
+    }
+}

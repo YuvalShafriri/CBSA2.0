@@ -1,0 +1,59 @@
+{
+    "nodes": [
+        { "id":  "Huqoq", "type":  "Location" },
+        { "id":  "Mosaics", "type":  "Artifact" },
+        { "id":  "Mythological motifs", "type":  "Theme" },
+        { "id":  "Biblical scenes", "type":  "Theme" },
+        { "id":  "Samson", "type":  "Person" },
+        { "id":  "Noah's Ark", "type":  "Event" },
+        { "id":  "Jael", "type":  "Person" },
+        { "id":  "Bronze Age", "type":  "Time Period" },
+        { "id":  "Middle Ages", "type":  "Time Period" },
+        { "id":  "Byzantine period", "type":  "Time Period" },
+        { "id":  "Greco-Roman influences", "type":  "Cultural Influence" },
+        { "id":  "Historical references", "type":  "Information" },
+        { "id":  "Mustard oil production", "type":  "Activity" },
+        { "id":  "Vadi Hamam", "type":  "Location" } 
+      ],
+      
+   "links": [
+        { "source":  "Huqoq", "target": "Mosaics", "relation": "Contains" },
+        { "source":  "Vadi Hamam", "target": "Mosaics", "relation": "Contains" },
+        { "source":  "Mosaics", "target": "Mythological motifs", "relation": "Includes" },
+        { "source":  "Mosaics", "target": "Biblical scenes", "relation": "Includes" },
+        { "source":  "Biblical scenes", "target": "Samson", "relation": "Depicts" },
+        { "source":  "Biblical scenes", "target": "Noah's Ark", "relation": "Depicts" },
+        { "source":  "Biblical scenes", "target": "Jael", "relation": "Depicts" },
+        { "source":  "Huqoq", "target": "Bronze Age", "relation": "Dates back to" },
+        { "source":  "Huqoq", "target": "Middle Ages", "relation": "Dates back to" },
+        { "source":  "Huqoq", "target": "Byzantine period", "relation": "Dates back to" },
+        { "source":  "Vadi Hamam", "target": "Byzantine period", "relation": "Dates back to" },
+        { "source":  "Byzantine period", "target": "Greco-Roman influences", "relation": "Influenced by" },
+        { "source":  "Huqoq", "target": "Historical references", "relation": "Mentioned in" },
+        { "source":  "Huqoq", "target": "Mustard oil production", "relation": "Known for" }
+      ] 
+      ,
+      "config": {
+        "typeColors": {
+            "Location": "#e57373",
+            "Artifact": "#81C784",
+            "Theme": "#64B5F6",
+            "Person": "#FFC0FB",
+            "Event": "#A1887F",
+            "Time Period": "#7986CB",
+            "Cultural Influence": "#FF8A65",
+            "Information": "#4FC3F7",
+            "Activity": "#9575CD"
+        },
+        "relationColors": {
+            "Contains": "#E91E63",
+            "Includes": "#FFb022",
+            "Depicts": "#4CAF50",
+            "Dates back to": "#00FF30",
+            "Influenced by": "#00BCD4",
+            "Mentioned in": "#673AB7",
+            "Known for": "#3F51B5"
+        }
+    }
+    
+}

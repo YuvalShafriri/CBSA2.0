@@ -1,0 +1,78 @@
+{
+    "nodes": [
+      {"id": "Temple at Ein Gedi", "type": "Location"},
+      {"id": "Ma'in Ein-Gadi", "type": "Location"},
+      {"id": "Ein-Gadi spring", "type": "Location"},
+      {"id": "Mein", "type": "Location"},
+      {"id": "Ein-Gadi settlement", "type": "Location"},
+      {"id": "Tel Goren", "type": "Location"},
+      {"id": "Nahal Mishmar", "type": "Location"},
+      {"id": "Yohanan Aharoni", "type": "Person"},
+      {"id": "David Osishkin", "type": "Person"},
+      {"id": "Benjamin Mazar", "type": "Person"},
+      {"id": "Danny Rosenberg", "type": "Person"},
+      {"id": "Yuval Goren", "type": "Person"},
+      {"id": "University of Haifa", "type": "Organization"},
+      {"id": "Ben Gurion University", "type": "Organization"},
+      {"id": "Moringa cave", "type": "Location"},
+      {"id": "Gideon Hadas", "type": "Person"},
+      {"id": "Yitzhak Shai", "type": "Person"},
+      {"id": "Roy Porat", "type": "Person"},
+      {"id": "Hanan Eshel", "type": "Person"},
+      {"id": "Amos Fromkin", "type": "Person"},
+      {"id": "Persian period", "type": "Time Period"},
+      {"id": "Chalcolithic period", "type": "Time Period"},
+      {"id": "Excavation", "type": "Activity"},
+      {"id": "Survey", "type": "Activity"}
+    ],
+    "links": [
+      {"source": "Temple at Ein Gedi", "target": "Ma'in Ein-Gadi", "relation": "Overlooks"},
+      {"source": "Temple at Ein Gedi", "target": "Ein-Gadi spring", "relation": "Nearby"},
+      {"source": "Temple at Ein Gedi", "target": "Mein", "relation": "Nearby"},
+      {"source": "Temple at Ein Gedi", "target": "Ein-Gadi settlement", "relation": "Nearby"},
+      {"source": "Temple at Ein Gedi", "target": "Tel Goren", "relation": "Nearby"},
+      {"source": "Temple at Ein Gedi", "target": "Nahal Mishmar", "relation": "Distant"},
+      {"source": "Temple at Ein Gedi", "target": "Yohanan Aharoni", "relation": "Discovered by"},
+      {"source": "Temple at Ein Gedi", "target": "David Osishkin", "relation": "Excavated by"},
+      {"source": "Temple at Ein Gedi", "target": "Benjamin Mazar", "relation": "Excavated under direction of"},
+      {"source": "Temple at Ein Gedi", "target": "Danny Rosenberg", "relation": "Excavated by"},
+      {"source": "Temple at Ein Gedi", "target": "Yuval Goren", "relation": "Excavated by"},
+      {"source": "Danny Rosenberg", "target": "University of Haifa", "relation": "Affiliated with"},
+      {"source": "Yuval Goren", "target": "Ben Gurion University", "relation": "Affiliated with"},
+      {"source": "Moringa cave", "target": "Gideon Hadas", "relation": "Excavated by"},
+      {"source": "Moringa cave", "target": "Yitzhak Shai", "relation": "Excavated by"},
+      {"source": "Moringa cave", "target": "Roy Porat", "relation": "Excavated by"},
+      {"source": "Moringa cave", "target": "Hanan Eshel", "relation": "Excavated by"},
+      {"source": "Moringa cave", "target": "Amos Fromkin", "relation": "Excavated by"},
+      {"source": "Moringa cave", "target": "Chalcolithic period", "relation": "Artifact period"},
+      {"source": "Temple at Ein Gedi", "target": "Chalcolithic period", "relation": "Dating"},
+      {"source": "Moringa cave", "target": "Persian period", "relation": "Artifact period"},
+      {"source": "Temple at Ein Gedi", "target": "Excavation", "relation": "Subject of"},
+      {"source": "Moringa cave", "target": "Excavation", "relation": "Subject of"},
+      {"source": "Yohanan Aharoni", "target": "Survey", "relation": "Conducted"}
+    ],
+    "config": {
+      "typeColors": {
+        "Location": "#FFD700",
+        "Person": "#FF4500",
+        "Organization": "#32CD32",
+        "Time Period": "#8A2BE2",
+        "Activity": "#1E90FF"
+      },
+      "relationColors": {
+        "Overlooks": "#808080",
+        "Nearby": "#FFC0CB",
+        "Distant": "#A52A2A",
+        "Discovered by": "#7FFF00",
+        "Excavated by": "#8B4513",
+        "Excavated under direction of": "#8B4513",
+        "Affiliated with": "#4682B4",
+        "Artifact period": "#B0E0E6",
+        "Dating": "#B0E0E6",
+        "Subject of": "#5F9EA0",
+        "Conducted": "#20B2AA"
+      }
+    }
+  }
+  
+  

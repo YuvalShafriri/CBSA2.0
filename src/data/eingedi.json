@@ -1,0 +1,310 @@
+{
+    "nodes": [
+        {
+            "id": "Temple at Ein Gedi",
+            "type": "Location"
+        },
+        {
+            "id": "Ma'in Ein-Gadi",
+            "type": "Location"
+        },
+        {
+            "id": "Ein-Gadi spring",
+            "type": "Location"
+        },
+        {
+            "id": "Mein",
+            "type": "Location"
+        },
+        {
+            "id": "Ein-Gadi settlement",
+            "type": "Location"
+        },
+        {
+            "id": "Tel Goren",
+            "type": "Location"
+        },
+        {
+            "id": "Nahal Mishmar treasure cave",
+            "type": "Location"
+        },
+        {
+            "id": "Chalcolithic period",
+            "type": "Time Period"
+        },
+        {
+            "id": "Yohanan Aharoni",
+            "type": "Person"
+        },
+        {
+            "id": "David Osishkin",
+            "type": "Person"
+        },
+        {
+            "id": "Benjamin Mazar",
+            "type": "Person"
+        },
+        {
+            "id": "University of Haifa",
+            "type": "Organization"
+        },
+        {
+            "id": "Ben Gurion University",
+            "type": "Organization"
+        },
+        {
+            "id": "Danny Rosenberg",
+            "type": "Person"
+        },
+        {
+            "id": "Yuval Goren",
+            "type": "Person"
+        },
+        {
+            "id": "Moringa cave",
+            "type": "Location"
+        },
+        {
+            "id": "Gideon Hadas",
+            "type": "Person"
+        },
+        {
+            "id": "Yitzhak Shai",
+            "type": "Person"
+        },
+        {
+            "id": "Roy Porat",
+            "type": "Person"
+        },
+        {
+            "id": "Hanan Eshel",
+            "type": "Person"
+        },
+        {
+            "id": "Amos Fromkin",
+            "type": "Person"
+        },
+        {
+            "id": "Persian period",
+            "type": "Time Period"
+        },
+        {
+            "id": "plaster fragment",
+            "type": "Artifact"
+        },
+        {
+            "id": "altar",
+            "type": "Artifact"
+        },
+        {
+            "id": "animal bones",
+            "type": "Artifact"
+        },
+        {
+            "id": "clay figurine of a bull",
+            "type": "Artifact"
+        },
+        {
+            "id": "pottery shards",
+            "type": "Artifact"
+        },
+        {
+            "id": "bowls",
+            "type": "Artifact"
+        },
+        {
+            "id": "kevemats",
+            "type": "Artifact"
+        },
+        {
+            "id": "bizikhs",
+            "type": "Artifact"
+        },
+        {
+            "id": "Egyptian alabaster vessel",
+            "type": "Artifact"
+        },
+        {
+            "id": "Flint and stone tools",
+            "type": "Artifact"
+        },
+        {
+            "id": "God of the House statue",
+            "type": "Artifact"
+        }
+    ],
+    "links": [
+        {
+            "source": "Temple at Ein Gedi",
+            "target": "Ma'in Ein-Gadi",
+            "relation": "Overlooks"
+        },
+        {
+            "source": "Temple at Ein Gedi",
+            "target": "Ein-Gadi spring",
+            "relation": "Overlooks"
+        },
+        {
+            "source": "Temple at Ein Gedi",
+            "target": "Mein",
+            "relation": "Near"
+        },
+        {
+            "source": "Temple at Ein Gedi",
+            "target": "Ein-Gadi settlement",
+            "relation": "Near"
+        },
+        {
+            "source": "Temple at Ein Gedi",
+            "target": "Tel Goren",
+            "relation": "Near"
+        },
+        {
+            "source": "Temple at Ein Gedi",
+            "target": "Nahal Mishmar treasure cave",
+            "relation": "Distance from"
+        },
+        {
+            "source": "Temple at Ein Gedi",
+            "target": "Yohanan Aharoni",
+            "relation": "Discovered by"
+        },
+        {
+            "source": "Temple at Ein Gedi",
+            "target": "David Osishkin",
+            "relation": "Excavated by"
+        },
+        {
+            "source": "Tel Goren",
+            "target": "Benjamin Mazar",
+            "relation": "Directed by"
+        },
+        {
+            "source": "Temple at Ein Gedi",
+            "target": "University of Haifa",
+            "relation": "Renewed excavation by"
+        },
+        {
+            "source": "Temple at Ein Gedi",
+            "target": "Ben Gurion University",
+            "relation": "Renewed excavation by"
+        },
+        {
+            "source": "Temple at Ein Gedi",
+            "target": "Danny Rosenberg",
+            "relation": "Renewed excavation directed by"
+        },
+        {
+            "source": "Temple at Ein Gedi",
+            "target": "Yuval Goren",
+            "relation": "Renewed excavation directed by"
+        },
+        {
+            "source": "Moringa cave",
+            "target": "Gideon Hadas",
+            "relation": "Excavated by in 1989"
+        },
+        {
+            "source": "Moringa cave",
+            "target": "Yitzhak Shai",
+            "relation": "Excavation in 2004 directed by"
+        },
+        {
+            "source": "Moringa cave",
+            "target": "Roy Porat",
+            "relation": "Excavation in 2004 directed by"
+        },
+        {
+            "source": "Moringa cave",
+            "target": "Hanan Eshel",
+            "relation": "Excavation in 2004 directed by"
+        },
+        {
+            "source": "Moringa cave",
+            "target": "Amos Fromkin",
+            "relation": "Excavation in 2004 directed by"
+        },
+        {
+            "source": "Temple at Ein Gedi",
+            "target": "plaster fragment",
+            "relation": "Contains"
+        },
+        {
+            "source": "altar",
+            "target": "animal bones",
+            "relation": "Contains"
+        },
+        {
+            "source": "altar",
+            "target": "clay figurine of a bull",
+            "relation": "Contains"
+        },
+        {
+            "source": "Temple at Ein Gedi",
+            "target": "pottery shards",
+            "relation": "Contains"
+        },
+        {
+            "source": "Temple at Ein Gedi",
+            "target": "Egyptian alabaster vessel",
+            "relation": "Contains"
+        },
+        {
+            "source": "Moringa cave",
+            "target": "Flint and stone tools",
+            "relation": "Contains"
+        },
+        {
+            "source": "Moringa cave",
+            "target": "Chalcolithic period",
+            "relation": "Dates to"
+        },
+        {
+            "source": "Moringa cave",
+            "target": "Persian period",
+            "relation": "Dates to"
+        },
+        {
+            "source": "Temple at Ein Gedi",
+            "target": "Chalcolithic period",
+            "relation": "Dates to"
+        },
+        {
+            "source": "altar",
+            "target": "God of the House statue",
+            "relation": "Possible location for"
+        }
+    ],
+    "config": {
+        "typeColors": {
+            "Location": "#e57373",
+            "Person": "#FFD54F",
+            "Artifact": "#81C784",
+            "Time Period": "#7986CB",
+            "Event": "#A1887F",
+            "Building": "#64B5F6",
+            "Room": "#FF8A65",
+            "Tool": "#4FC3F7",
+            "Statue": "#9575CD"
+        },
+        "relationColors": {
+            "Overlooks": "#E91E63",
+            "North of": "#FFb022",
+            "West of": "#4CAF50",
+            "Northeast of": "#00FF30",
+            "Discovered by": "#00BCD4",
+            "Excavated by": "#673AB7",
+            "Directed by": "#3F51B5",
+            "Renewed excavation by": "#9C27B0",
+            "Renewed excavation directed by": "#FFC107",
+            "Consists of": "#FF5722",
+            "Located in": "#795548",
+            "Interpreted as": "#607D8B",
+            "Connected to": "#9E9E9E",
+            "Built on": "#00E676",
+            "Contains": "#8BC34A",
+            "Possible location for": "#009688",
+            "Dates to": "#2196F3"
+        }
+    }
+}
