@@ -9,12 +9,12 @@ export default class SimpleNetwork {
         this.collisionForce = d3.forceCollide().radius(30);
         this.init();
 
-      
-        
+
+
     }
 
     async init() {
-        const data = this.data ;
+        const data = this.data;
         this.createSvg();
         this.loadData(data);
         this.createForceSimulation();
@@ -47,9 +47,9 @@ export default class SimpleNetwork {
     createForceSimulation() {
         this.simulation = d3.forceSimulation(this.nodes)
             .force('link', d3.forceLink(this.links).id(d => d.id).distance(70)) // set your desired distance here
-            
+
             .force("charge", d3.forceManyBody().strength(-80)) // Adjust the strength here
-        
+
             .force('center', d3.forceCenter(this.width / 2, this.height / 2))
             .force("collision", this.collisionForce)
             .force("collide", d3.forceCollide().radius(65))  // Adjust the radius here
@@ -72,31 +72,13 @@ export default class SimpleNetwork {
             .attr('opacity', 0.6)
             .attr('stroke', d => this.config.relationColors[d.relation] || '#000'); // Default to black if relation not found
 
-        // Create nodes
-
-        // this.node = container.append('g')
-        //     .selectAll('circle')
-        //     .data(this.nodes)
-        //     .enter()
-        //     .append('circle')
-        //     .attr('r', 20)
-        //     .attr('fill', d => this.config.typeColors[d.type] || '#1f78b4'); // Default to example color if type not found
-
-        // this.node.append('text')
-        // .attr('x', 0)
-        // .attr('y', 0)
-        //     .attr('dy', ".35em") // this centers the text vertically
-        //     .style('font-size', '8px') // small font size
-        //     .style('text-anchor', 'middle')
-        //     .style('fill', 'black')
-        //     .attr('fill', 'black')
-        //     .text(d => d.type); // assuming `type` is the property with your entity type
         this.nodeGroup = container.append('g').selectAll('g').data(this.nodes).enter().append('g');
-
+        this.nodeGroup.selectAll('text')
+      
         this.node = this.nodeGroup.append('circle')
             .attr('r', 15)
             .attr('fill', d => this.config.typeColors[d.type] || '#1f78b4');
-        
+
         this.nodeGroup.append('text')
             .attr('x', 0)
             .attr('y', 0)
@@ -105,7 +87,7 @@ export default class SimpleNetwork {
             .style('text-anchor', 'middle')
             .style('fill', 'black')
             .text(d => d.type);
-        
+
         this.label = container.append('g')
             .selectAll('text')
             .data(this.nodes)
@@ -130,7 +112,36 @@ export default class SimpleNetwork {
             .attr('font-size', '8px') // Smaller font size for link labels
             .attr('text-anchor', 'middle');
     }
-
+    
+    // setupZoom() {
+    //     const zoomHandler = d3.zoom()
+    //         .filter(event => {
+    //             // If it's a wheel event and ctrl or alt is pressed, then allow zooming
+    //             if (event.type === 'wheel' && (event.ctrlKey || event.altKey)) {
+    //                 return true;
+    //             }
+    //             // If it's not a wheel event (e.g., dragging with mouse), allow for panning
+    //             if (event.type !== 'wheel') {
+    //                 return true;
+    //             }
+    //             return false;  // Prevent any other conditions
+    //         })
+    //         .on('zoom', (event) => {
+    //             this.container.attr('transform', event.transform);
+    //         });
+    
+    //     this.svg.call(zoomHandler);
+    // }
+    
+    // setupZoom() {
+    //     const zoomHandler = d3.zoom()
+    //         .filter(event => event.ctrlKey || event.altKey)  // Only allow zoom if ctrl or alt key is pressed
+    //         .on('zoom', (event) => {
+    //             this.container.attr('transform', event.transform);
+    //         });
+    //     this.svg.call(zoomHandler);
+    // }
+    
     setupZoom() {
         const zoomHandler = d3.zoom().on('zoom', (event) => {
             this.container.attr('transform', event.transform);
@@ -150,6 +161,20 @@ export default class SimpleNetwork {
 
 
     addEventListeners() {
+        this.nodeGroup.selectAll('text')
+    .on('mousedown', (event) => {
+        event.stopPropagation();
+    });
+    this.label
+    .on('mousedown', (event) => {
+        event.stopPropagation();
+    });
+    
+this.linkLabel
+    .on('mousedown', (event) => {
+        event.stopPropagation();
+    });
+
         // Add any event listeners (e.g., click, mouseover) here
     }
 
@@ -180,7 +205,7 @@ export default class SimpleNetwork {
             .attr('x2', d => d.target.x)
             .attr('y2', d => d.target.y);
 
-         
+
         this.nodeGroup.attr('transform', d => `translate(${d.x}, ${d.y})`);
 
 

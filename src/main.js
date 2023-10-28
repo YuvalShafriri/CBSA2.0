@@ -9,7 +9,7 @@ let network; // Declare network variable
 
 async function loadDefaultData() {
     try {
-        const defaultData = await d3.json('./data/data.json');
+        const defaultData = await d3.json('./data/huqoq-02.json');
         createNewGraph(defaultData);
     } catch (error) {
         console.error("Error loading the default JSON data", error);

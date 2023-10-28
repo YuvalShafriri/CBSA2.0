@@ -1,0 +1,69 @@
+{
+  "nodes": [
+    { "id": "Huqoq", "type": "Location", "description": "An archaeological site located 5 kilometers north of the Sea of Galilee, with remains from the Bronze Age to the Middle Ages, including the Byzantine synagogue." },
+    { "id": "ByzantineSynagogue", "type": "Artifact", "description": "A well-preserved collection of extraordinary mosaic floors located in Huqoq, showcasing narratives, mythological motifs, and depictions of everyday life." },
+    { "id": "LargePublicBuilding", "type": "Artifact", "description": "A large public building structure, likely a synagogue from the early Middle Ages, found above the Byzantine synagogue at Huqoq." },
+    { "id": "MosaicFloors", "type": "Artifact", "description": "Extraordinary mosaic floors found in the Byzantine synagogue at Huqoq, rich in narratives and artistic depictions." },
+    { "id": "MythologicalMotifs", "type": "Theme", "description": "Artistic themes depicted in the mosaics at Huqoq, showcasing a variety of mythological scenes." },
+    { "id": "BiblicalScenes", "type": "Theme", "description": "Scenes from the Bible artistically portrayed in the mosaics at Huqoq, including stories like Noah's Ark and Moses parting the Red Sea." },
+    { "id": "Samson", "type": "Person", "description": "A biblical figure depicted in the mosaics at Huqoq, showcasing scenes from his life." },
+    { "id": "NoahsArk", "type": "Event", "description": "A biblical event depicted in the mosaics at Huqoq, showcasing Noah's Ark." },
+    { "id": "MosesPartingRedSea", "type": "Event", "description": "A biblical event depicted in the mosaics at Huqoq, showcasing Moses parting the Red Sea." },
+    { "id": "JonahSwallowedByFish", "type": "Event", "description": "A biblical event depicted in the mosaics at Huqoq, showcasing Jonah being swallowed by a fish." },
+    { "id": "YaelKillingSisera", "type": "Event", "description": "A biblical event depicted in the mosaics at Huqoq, showcasing Yael killing Sisera." },
+    { "id": "ExtraBiblicalTradition", "type": "Theme", "description": "A theme depicted in the mosaics at Huqoq, showcasing traditions not found in the Bible, providing insights into local eschatological traditions from Tiberias and the Arbel area." },
+    { "id": "GrecoRomanInfluences", "type": "CulturalInfluence", "description": "Cultural influences visible in the mosaics at Huqoq, showcasing the impact of Greco-Roman and Byzantine cultures on local Jewish art during the Byzantine period." },
+    { "id": "JewishArtHistory", "type": "Theme", "description": "The artistic and cultural heritage of the Jewish community in Galilee during the Byzantine period, as showcased by the mosaics at Huqoq." },
+    { "id": "HuqoqJewishVillage", "type": "Location", "description": "The Jewish village of Huqoq, with a history spanning a thousand years from the Bronze Age to the Middle Ages." },
+    { "id": "YaquqMuslimVillage", "type": "Location", "description": "The Muslim village of Yaquq, which was destroyed in 1948." },
+    { "id": "HabakkuksTomb", "type": "Location", "description": "A site of historical references and ongoing pilgrim traditions within Huqoq." },
+    { "id": "MustardOilProduction", "type": "Activity", "description": "A unique activity related to the production of mustard oil, with structures preserved at Huqoq." },
+    { "id": "MediterraneanCulturalLandscape", "type": "Theme", "description": "The cultural and natural setting of Huqoq, showcasing the Mediterranean influences on the area." }
+  ],
+  
+  "links": [
+    { "source": "Huqoq", "target": "ByzantineSynagogue", "relation": "Contains", "description": "The Byzantine synagogue with its mosaic floors is located within the archaeological site of Huqoq." },
+    { "source": "Huqoq", "target": "LargePublicBuilding", "relation": "Contains", "description": "The large public building from the early Middle Ages is located above the Byzantine synagogue at Huqoq." },
+    { "source": "ByzantineSynagogue", "target": "MosaicFloors", "relation": "Houses", "description": "The Byzantine synagogue at Huqoq houses a collection of extraordinary mosaic floors." },
+    { "source": "MosaicFloors", "target": "MythologicalMotifs", "relation": "Depicts", "description": "The mosaic floors at Huqoq depict a rich assortment of mythological motifs." },
+    { "source": "MosaicFloors", "target": "BiblicalScenes", "relation": "Depicts", "description": "The mosaic floors at Huqoq depict various scenes from the Bible." },
+    { "source": "BiblicalScenes", "target": "Samson", "relation": "Depicts", "description": "The mosaics at Huqoq depict scenes from the life of Samson." },
+    { "source": "BiblicalScenes", "target": "NoahsArk", "relation": "Depicts", "description": "The mosaics at Huqoq depict the biblical event of Noah's Ark." },
+    { "source": "BiblicalScenes", "target": "MosesPartingRedSea", "relation": "Depicts", "description": "The mosaics at Huqoq depict the biblical event of Moses parting the Red Sea." },
+    { "source": "BiblicalScenes", "target": "JonahSwallowedByFish", "relation": "Depicts", "description": "The mosaics at Huqoq depict the biblical event of Jonah being swallowed by a fish." },
+    { "source": "BiblicalScenes", "target": "YaelKillingSisera", "relation": "Depicts", "description": "The mosaics at Huqoq depict the event of Yael killing Sisera." },
+    { "source": "MosaicFloors", "target": "ExtraBiblicalTradition", "relation": "Depicts", "description": "The mosaics at Huqoq reveal an extra-biblical tradition for the first time in an ancient synagogue, showcasing local eschatological traditions." },
+    { "source": "ExtraBiblicalTradition", "target": "GrecoRomanInfluences", "relation": "InfluencedBy", "description": "The extra-biblical tradition depicted in the mosaics at Huqoq is influenced by Greco-Roman and Byzantine cultures." },
+    { "source": "MosaicFloors", "target": "JewishArtHistory", "relation": "ContributesTo", "description": "The mosaics at Huqoq contribute to our understanding of Jewish art history during the Byzantine period." },
+    { "source": "Huqoq", "target": "HuqoqJewishVillage", "relation": "Contains", "description": "The archaeological site of Huqoq includes the remains of the Huqoq Jewish village." },
+    { "source": "Huqoq", "target": "YaquqMuslimVillage", "relation": "Contains", "description": "The archaeological site of Huqoq includes the remains of the Muslim village of Yaquq, destroyed in 1948." },
+    { "source": "Huqoq", "target": "HabakkuksTomb", "relation": "Contains", "description": "The site of Habakkuk's tomb, a place of historical reference and ongoing pilgrim traditions, is located within the archaeological site of Huqoq." },
+    { "source": "Huqoq", "target": "MustardOilProduction", "relation": "Contains", "description": "Unique structures related to mustard oil production have been preserved at the archaeological site of Huqoq." },
+    { "source": "Huqoq", "target": "MediterraneanCulturalLandscape", "relation": "Exemplifies", "description": "The archaeological site of Huqoq exemplifies the Mediterranean cultural landscape." }
+  ],
+  
+  "config": {
+    "typeColors": {
+      "Location": "#FF9800",
+      "Artifact": "#9C27B0",
+      "Theme": "#F44336",
+      "Person": "#3F51B5",
+      "Event": "#009688",
+      "CulturalInfluence": "#8BC34A",
+      "Activity": "#FFC107"
+    },
+    "relationColors": {
+      "Contains": "#E91E63",
+      "Houses": "#673AB7",
+      "Depicts": "#03A9F4",
+      "InfluencedBy": "#8BC34A",
+      "ContributesTo": "#FFEB3B",
+      "Exemplifies": "#FF5722"
+    }
+  }
+}
+
+
+
+
+ 

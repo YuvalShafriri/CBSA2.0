@@ -5,7 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Network Graph</title>
   <!-- <link rel="stylesheet" href="path_to_your_stylesheet.css"> -->
-   
+<style>
+/* By default, no pointer events on any SVG elements */
+svg * {
+    pointer-events: all;
+}
+
+/* Allow pointer events on circles, lines, and text */
+circle, line, text {
+    pointer-events: all;
+}
+
+
+</style>   
 </head>
 <body>
   <!-- <div id="visualization"></div> -->

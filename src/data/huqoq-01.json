@@ -1,0 +1,84 @@
+{
+  "nodes": [
+    { "id": "Huqoq", "type": "Location", "description": "An archaeological site located 5 kilometers north of the Sea of Galilee, with remains from the Bronze Age to the Middle Ages." },
+    { "id": "Mosaics", "type": "Artifact", "description": "Well-preserved collection of extraordinary mosaic floors found at the Byzantine synagogue in Huqoq, rich in narratives, mythological motifs, biblical scenes, and depictions of everyday life." },
+    { "id": "Mythological motifs", "type": "Theme", "description": "Artistic representations of themes and subjects from mythology found in the mosaics at Huqoq." },
+    { "id": "Biblical scenes", "type": "Theme", "description": "Artistic depictions of stories from the Bible found in the mosaics at Huqoq." },
+    { "id": "Samson", "type": "Person", "description": "Biblical figure depicted in the mosaics at Huqoq." },
+    { "id": "Noah's Ark", "type": "Story", "description": "Biblical story depicted in the mosaics at Huqoq." },
+    { "id": "Moses", "type": "Person", "description": "Biblical figure depicted in the mosaics at Huqoq, specifically in the scene of parting the Red Sea." },
+    { "id": "Red Sea", "type": "Location", "description": "Location associated with the Biblical story of Moses, depicted in the mosaics at Huqoq." },
+    { "id": "Jonah", "type": "Person", "description": "Biblical figure depicted in the mosaics at Huqoq, specifically in the scene of being swallowed by a fish." },
+    { "id": "Fish", "type": "Animal", "description": "Animal that swallowed Jonah in the Biblical story, depicted in the mosaics at Huqoq." },
+    { "id": "Yael", "type": "Person", "description": "Biblical figure depicted in the mosaics at Huqoq, specifically in the scene of killing Sisera." },
+    { "id": "Sisera", "type": "Person", "description": "Biblical figure killed by Yael, depicted in the mosaics at Huqoq." },
+    { "id": "Bronze Age", "type": "Time Period", "description": "Historical period during which Huqoq was inhabited." },
+    { "id": "Middle Ages", "type": "Time Period", "description": "Historical period during which the Byzantine synagogue and mosaics at Huqoq date back to." },
+    { "id": "Byzantine Period", "type": "Time Period", "description": "Historical period characterized by the influence of Greco-Roman and Byzantine cultures, during which the mosaics at Huqoq were created." },
+    { "id": "Muslim Village of Yaquq", "type": "Location", "description": "The location that Huqoq transformed into, which was eventually destroyed in 1948." },
+    { "id": "1948", "type": "Time Period", "description": "Year in which the Muslim village of Yaquq was destroyed." },
+    { "id": "Greco-Roman Culture", "type": "Cultural Influence", "description": "Cultural influences seen in the art and traditions of the Byzantine period in Huqoq." },
+    { "id": "Christian Church", "type": "Religious Institution", "description": "Emerging religious institution during the Byzantine period, contemporary with the Jewish community in Huqoq." },
+    { "id": "Sea of Galilee", "type": "Location", "description": "Large freshwater lake near Huqoq, significant in both historical and religious contexts." },
+    { "id": "Habakkuk's Tomb", "type": "Location", "description": "A site at Huqoq believed to be the tomb of the Biblical prophet Habakkuk, and a center for ongoing pilgrim traditions." },
+    { "id": "Tradition of Pilgrims", "type": "Historical Reference/Tradition", "description": "Ongoing traditions of pilgrimage to Habakkuk's Tomb, reflecting the site's historical and religious significance." }
+    ,{ "id": "Mustard Oil Production", "type": "Activity", "description": "Unique structures related to mustard oil production have been preserved at Huqoq, showcasing aspects of local agricultural practices." },
+     { "id": "Mediterranean Cultural Landscape", "type": "Cultural Influence", "description": "The surrounding environment and cultural setting of Huqoq, influenced by the broader Mediterranean region." }
+  ],
+  "links": [
+    { "source": "Huqoq", "target": "Mosaics", "relation": "Contains", "description": "The Byzantine synagogue at Huqoq houses a collection of mosaics." },
+    { "source": "Mosaics", "target": "Mythological motifs", "relation": "Depict", "description": "The mosaics at Huqoq depict various mythological motifs." },
+    { "source": "Mosaics", "target": "Biblical scenes", "relation": "Depict", "description": "The mosaics at Huqoq depict various scenes from the Bible." },
+    { "source": "Biblical scenes", "target": "Samson", "relation": "Include", "description": "The mosaics depicting biblical scenes at Huqoq include the story of Samson." },
+    { "source": "Biblical scenes", "target": "Noah's Ark", "relation": "Include", "description": "The mosaics depicting biblical scenes at Huqoq include the story of Noah's Ark." },
+    { "source": "Biblical scenes", "target": "Moses", "relation": "Include", "description": "The mosaics depicting biblical scenes at Huqoq include the story of Moses parting the Red Sea." },
+    { "source": "Biblical scenes", "target": "Jonah", "relation": "Include", "description": "The mosaics depicting biblical scenes at Huqoq include the story of Jonah being swallowed by a fish." },
+    { "source": "Biblical scenes", "target": "Yael", "relation": "Include", "description": "The mosaics depicting biblical scenes at Huqoq include the story of Yael killing Sisera." },
+    { "source": "Huqoq", "target": "Bronze Age", "relation": "Dates back to", "description": "The site of Huqoq has remains dating back to the Bronze Age." },
+    { "source": "Huqoq", "target": "Middle Ages", "relation": "Dates back to", "description": "The site of Huqoq has remains dating back to the Middle Ages, including the Byzantine synagogue." },
+    { "source": "Huqoq", "target": "Byzantine Period", "relation": "Dates back to", "description": "The mosaics at Huqoq and the synagogue itself date back to the Byzantine Period." },
+    { "source": "Byzantine Period", "target": "Greco-Roman Culture", "relation": "Influenced by", "description": "The art and culture of Huqoq during the Byzantine Period were influenced by Greco-Roman traditions." },
+    { "source": "Byzantine Period", "target": "Christian Church", "relation": "Contemporary with", "description": "The Jewish community and the art at Huqoq coexisted with the establishment of the Christian Church in the region during the Byzantine Period." },
+    { "source": "Huqoq", "target": "Muslim Village of Yaquq", "relation": "Transformed into", "description": "The site of Huqoq eventually became the Muslim village of Yaquq, which was destroyed in 1948." },
+    { "source": "Huqoq", "target": "Habakkuk's Tomb", "relation": "Includes", "description": "The site of Huqoq is believed to include the tomb of the Biblical prophet Habakkuk." },
+    { "source": "Habakkuk's Tomb", "target": "Tradition of Pilgrims", "relation": "Center for", "description": "Habakkuk's Tomb at Huqoq is a center for ongoing pilgrim traditions." },
+    { "source": "Huqoq", "target": "Mustard Oil Production", "relation": "Known for", "description": "The site of Huqoq includes unique structures related to mustard oil production, highlighting aspects of local agriculture." },
+    { "source": "Huqoq", "target": "Mediterranean Cultural Landscape", "relation": "Set against",
+     "description": "The site of Huqoq is set against a backdrop of the Mediterranean cultural landscape, influenced by the broader region." },
+   { "source": "Yael", "target": "Sisera",
+ "relation": "Killed", "description":
+  "Sisera was killed by Yael, as depicted in the mosaics at Huqoq." },
+
+{ "source": "Huqoq", "target": "Sea of Galilee", "relation": "Located near", "description": "Huqoq is located 5 kilometers north of the Sea of Galilee." }
+
+],
+  "config": {
+    "typeColors": {
+      "Location": "#e57373",
+      "Artifact": "#81C784",
+      "Theme": "#64B5F6",
+      "Person": "#FFC0CB",
+      "Story": "#FFD700",
+      "Time Period": "#7986CB",
+      "Cultural Influence": "#FF8A65",
+      "Religious Institution": "#BA68C8",
+      "Historical Reference/Tradition": "#4FC3F7",
+      "Activity": "#9575CD",
+      "Animal": "#AED581"
+    },
+    "relationColors": {
+      "Contains": "#E91E63",
+      "Depict": "#9C27B0",
+      "Include": "#00BCD4",
+      "Dates back to": "#8BC34A",
+      "Influenced by": "#FFC107",
+      "Contemporary with": "#FF5722",
+      "Transformed into": "#795548",
+      "Center for": "#607D8B",
+      "Known for": "#3F51B5",
+      "Set against": "#009688",
+      "Killed": "#D32F2F"
+
+    }
+  } 
+ }
