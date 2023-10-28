@@ -3,8 +3,9 @@ import { betweenness, degree } from "graphology-metrics/centrality";
 import Graph from 'graphology';
 import { json } from 'd3';
 console.log("graphAnalysis.js")
-export async function centrality(dataFileName) {
-    const data = await json(dataFileName);
+export async function centrality(data) {
+//    const data = await json(data);
+//    const data = await json(data);
     let graph = new Graph();
     //... implementation for centrality using degree or betweenness
     data.nodes.forEach((node) => {
@@ -64,8 +65,8 @@ export async function centrality(dataFileName) {
 //   // The result will be an object where keys are node identifiers and values are their respective betweenness centrality scores
   
 // }
-export async function _betweenness(dataFileName) {
-    const data = await json(dataFileName);
+export async function _betweenness(data) {
+  //  const data = await json(dataFileName);
     // ... your betweenness logic here using the 'data'
     // return the results
     //... implementation for betweenness

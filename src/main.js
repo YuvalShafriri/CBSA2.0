@@ -23,7 +23,13 @@ function createNewGraph(data) {
         // But just for reference: d3.select("svg").remove();
         network = null;
     }
-
+    graphAnalysis.centrality(data).then(result => {
+        console.log("Degree Centrality Results:", result);
+    });
+    
+    graphAnalysis._betweenness(data).then(result => {
+        console.log("Betweenness Centrality Results:", result);
+    });
     network = new SimpleNetwork('body', data); // Create a new instance with the new data
 }
 
@@ -48,47 +54,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 
 
+import * as graphAnalysis from './graphAnalysis.js';
 
-// import * as graphAnalysis from './graphAnalysis.js';
- 
-// import SimpleNetwork from './SimpleNetwork.js';
+//console.log("main")  
 
-// let network;
-
-// function createNewGraph(data) {
-//     if (network) {
-//          network = null;
-//         // Optional: If there are cleanup tasks to be done before creating a new instance, do them here.
-//     }
-//     network = new SimpleNetwork('body', data);
-// }
-
-// const dataFileInput = document.getElementById('dataFileInput');
-
-// dataFileInput.addEventListener('change', (event) => {
-     
-//     const file = event.target.files[0];
-//     if (file) {
-//         const reader = new FileReader();
-//         reader.onload = function(event) {
-//             const newData = JSON.parse(event.target.result);
-//             createNewGraph(newData);
-//         };
-//         reader.readAsText(file);
-//     }
+// graphAnalysis.closeness(dataFileName).then(result => {   
+   
+//     console.log("Closeness Centrality Results:", result);
 // });
-
- 
-  //createNewGraph(defaultData);
-
-
-// //console.log("main")  
-// graphAnalysis.centrality(dataFileName).then(result => {
-//     console.log("Degree Centrality Results:", result);
+// graphAnalysis._eigenvector(dataFileName).then(result => {
+//     console.log("Eigenvector Centrality Results:", result);
 // });
-
-// graphAnalysis._betweenness(dataFileName).then(result => {
-//     console.log("Betweenness Centrality Results:", result);
-// });
-// // graphAnalysis.closeness(dataFileName).then(result => {   
-  
