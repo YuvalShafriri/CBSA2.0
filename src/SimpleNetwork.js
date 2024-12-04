@@ -1,17 +1,20 @@
 import * as d3 from 'd3';
 
 export default class SimpleNetwork {
-    constructor(selector, dataPath) {
+    constructor(selector, data) {
         this.selector = selector;
-        this.dataPath = dataPath;
+        this.data = data;
         this.width = window.innerWidth;
         this.height = window.innerHeight;
         this.collisionForce = d3.forceCollide().radius(50);
         this.init();
+
+      
+        
     }
 
     async init() {
-        const data = await d3.json(this.dataPath);
+        const data = this.data ;
         this.createSvg();
         this.loadData(data);
         this.createForceSimulation();
@@ -23,6 +26,10 @@ export default class SimpleNetwork {
     }
 
     createSvg() {
+        if (d3.select(this.selector).select("svg").node()) {
+            d3.select(this.selector).select("svg").remove();
+        }
+
         this.svg = d3.select(this.selector)
             .append('svg')
             .attr('width', this.width)
