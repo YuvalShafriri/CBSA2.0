@@ -1,4 +1,3 @@
-import Visualization from './visualization.js';
 import * as graphAnalysis from './graphAnalysis.js';
 // const width = window.innerWidth;
 // const height = window.outerHeight;
